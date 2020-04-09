@@ -42,9 +42,3 @@ for (let i = 0; i < links.length; i++){
     })
 }
 
-const links = document.getElementsByClassName("side-link");
-for (let i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", () => {
-        page.moveTo(i);
-    })
-}
